@@ -1,6 +1,5 @@
 ﻿using Library;
 using System.Diagnostics;
-using System.Linq;
 
 string title = "AdventOfCode2022 - Day 03";
 Console.Title = title;
