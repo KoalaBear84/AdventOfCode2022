@@ -1,7 +1,7 @@
 ﻿using Library;
 using System.Diagnostics;
 
-string title = "AdventOfCode202 - Day 02";
+string title = "AdventOfCode2022 - Day 02";
 Console.Title = title;
 ConsoleEx.WriteLine(title, ConsoleColor.Green);
 

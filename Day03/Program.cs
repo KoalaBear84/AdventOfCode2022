@@ -2,7 +2,7 @@
 using System.Diagnostics;
 using System.Linq;
 
-string title = "AdventOfCode202 - Day 03";
+string title = "AdventOfCode2022 - Day 03";
 Console.Title = title;
 ConsoleEx.WriteLine(title, ConsoleColor.Green);
 
