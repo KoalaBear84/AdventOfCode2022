@@ -84,7 +84,7 @@ Dictionary<FileSystemEntry, int> sizes = new();
 GetSumOfDirectoriesBelowSize(root, sizes);
 
 // Answer:  1390824
-ConsoleEx.WriteLine($"Star 1. {stopwatch.Elapsed.Microseconds / 1000d:n2}ms. Answer: {sizes.Where(x => x.Value <= 100_000).Select(x => x.Value).Sum():n0}", ConsoleColor.Yellow);
+ConsoleEx.WriteLine($"Star 1. {stopwatch.Elapsed.Microseconds / 1000d:n2}ms. Answer: {sizes.Where(x => x.Value <= 100_000).Select(x => x.Value).Sum()}", ConsoleColor.Yellow);
 
 stopwatch.Restart();
 
