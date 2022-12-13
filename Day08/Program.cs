@@ -232,7 +232,7 @@ for (int row = 0; row < rows; row++)
     }
 }
 
-// Answer: 
+// Answer: 535680
 ConsoleEx.WriteLine($"Star 2. {stopwatch.Elapsed.Microseconds / 1000d:n2}ms. Answer: {highestScenicScore}", ConsoleColor.Yellow);
 
 ConsoleEx.WriteLine("END", ConsoleColor.Green);
